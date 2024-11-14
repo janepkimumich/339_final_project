@@ -1,0 +1,45 @@
+/* body */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+    padding: 20px;
+    background-color:#9DBC98;
+}
+
+a {
+    color:#F9EFDB;
+}
+
+a:hover {
+    color: #B7B597;
+}
+
+/* header FIX THIS */
+header h1, header h2 {
+    color: #597b6a;
+}
+
+/* nav bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #503712;
+    padding: 10px 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9DBC98;
+    font-weight: bold
+}
+
+nav ul li a:hover {
+    color: #F9EFDB;
+    text-decoration-line: underline;
+}
+
